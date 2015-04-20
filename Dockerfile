@@ -2,8 +2,10 @@ FROM ruby:2.1
 MAINTAINER Deshi Xiao<xiaods@gmail.com>
 
 RUN apt-get update \
-&& apt-get install -y --no-install-recommends ruby-dev python-pygments build-essential zlib1g-dev libssl-dev nodejs \
+&& apt-get install -y --no-install-recommends nodejs \
 && apt-get clean \
+&& gem sources --remove https://rubygems.org/ \
+&& gem sources -a https://ruby.taobao.org/ \
 && gem install --no-ri --no-rdoc github-pages
 
 WORKDIR /app
