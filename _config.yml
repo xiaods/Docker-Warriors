@@ -367,14 +367,11 @@ external_links :
   header : More Great Docker Sites
   links :
     - link :
-      name : DaoCloud
-      url: https://daocloud.io
-    - link :
       name : DockOne
       url: https://dockone.io
     - link :
-      name : alauda.cn
-      url: https://alauda.cn
+      name : Dataman Cloud
+      url: https://shurenyun.com/
 
 
 # These are the Bootstrap settings. These Bootstrap settings will control both
