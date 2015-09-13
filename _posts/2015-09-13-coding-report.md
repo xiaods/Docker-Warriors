@@ -1,7 +1,7 @@
-#---
-#layout : post
-#title : 2015-9-13中国区战报
-#---
+---
+layout : post
+title : 2015-9-13中国区战报
+---
 
 by 战地记者：[老肖](https://github.com/xiaods)
 
