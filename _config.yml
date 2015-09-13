@@ -368,7 +368,7 @@ external_links :
   links :
     - link :
       name : DockOne
-      url: https://dockone.io
+      url: http://dockone.io/
     - link :
       name : Dataman Cloud
       url: https://shurenyun.com/
